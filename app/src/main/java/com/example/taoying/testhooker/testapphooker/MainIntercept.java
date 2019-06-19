@@ -13,6 +13,8 @@ import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 public class MainIntercept implements IXposedHookLoadPackage {
+    // zpp到此一游
+    // 第二天zpp又来了
     private static final String TAG = "MainIntercept";
 //    String className1 = "com.example.taoying.testbehooked.testappbehooked.MainActivity";
 //    String className2 = "com.ss.android.article.base.feature.feed.docker.impl.misc.FeedInitializer_admiddle";
