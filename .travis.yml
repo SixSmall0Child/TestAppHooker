@@ -18,6 +18,7 @@ deploy:
   api_key:
     secure: J2V4XmVNg7a3EYw8shYnrNCAD675rGFhwnxmrx9Zd2p/EJ5kc6rDyWyudnAjNzqH3E689UQI+Dqvx2rcF1/04YXCRMjIZ+wOZ4NZJMWa/SvBJbFGUW2SsYnj/7fX5EvRm6ZwWh73ldjhs52uuwv3pjsSoWJPue2BlZJoaZ/fScf4NVDceQfmB363ve85u9ivVFH4VlihhsxblD1SzhTEvFyGtQpNCTvFH0jZUbmqDsZ/H/mmsNAwBMtYNu8ozevu9qHwQiJVz1zJ0zTKR0VwpSXszkbgBy/7S2N/IFw6Vc+IaiAOisn3B7ia8An2O1ciDduWxIeBEaaotSDVHv0B3DusHP4rBEvDLdm6W2WP/HfpXB5s9GOdwPJXBoojRCCfjAXKEJtYwnsOCYmIS21nYe0kuyFf80ZzQiCUpDH/KWDX5H9+GW7gRH6cZWKgmnaP8hCZDSWi7bMoXO+45C709HthmbN3nRCGqJrRF4q+hL+u+8EKP/ZqC+2fuOZXq7y5FhWPRGXS6zcTIyFmscQS4Ip+j9lwuPQ2ogIIMalrHWmHpdeuclwql62seawICXRHvZezYm8yaC3Ua7XGg902GZwUL4rKVLxada/bm3qp/VbDcKYE4smTLQic8qfFG9sHIVpMr5WHrNsjv2Gq+fnOf8ufEc0v8zlHo5LxMu/5DlM=
   file: app/build/outputs/apk/release/app-release.apk
+  skip_cleanup: true
   on:
     repo: SixSmall0Child/TestAppHooker
     tags: true
