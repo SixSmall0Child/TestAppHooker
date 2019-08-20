@@ -10,8 +10,25 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    signingConfigs {
+        debug {
+            storeFile file('wi.jks')
+            keyAlias 'ss0c123'
+            keyPassword 'ss0c123'
+            storePassword 'ss0c123'
+        }
+        release {
+            storeFile file('wi.jks')
+            keyAlias 'ss0c123'
+            keyPassword 'ss0c123'
+            storePassword 'ss0c123'
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
