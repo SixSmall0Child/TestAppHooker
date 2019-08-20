@@ -13,13 +13,13 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file('wi.jks')
+            storeFile file('ss0c.jks')
             keyAlias 'ss0c123'
             keyPassword 'ss0c123'
             storePassword 'ss0c123'
         }
         release {
-            storeFile file('wi.jks')
+            storeFile file('ss0c.jks')
             keyAlias 'ss0c123'
             keyPassword 'ss0c123'
             storePassword 'ss0c123'
