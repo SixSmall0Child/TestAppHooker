@@ -1,17 +1,15 @@
 language: android
-
 sudo: false
-
 android:
   components:
-    - build-tools-28.0.2
-    - android-28
-    - extra-android-m2repository
-    - extra-android-support
-
+  - build-tools-28.0.2
+  - android-28
+  - extra-android-m2repository
+  - extra-android-support
 before_script:
-  - chmod +x gradlew
-
-
+- chmod +x gradlew
 script:
-  - ./gradlew assembleRelease
+- "./gradlew assembleRelease"
+before_install:
+- openssl aes-256-cbc -K $encrypted_51980e9e1081_key -iv $encrypted_51980e9e1081_iv
+  -in ss0c.jks.enc -out app/ss0c.jks -d
