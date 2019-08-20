@@ -13,3 +13,11 @@ script:
 before_install:
 - openssl aes-256-cbc -K $encrypted_426e7ed2a2a0_key -iv $encrypted_426e7ed2a2a0_iv
   -in ss0c.jks.enc -out app/ss0c.jks -d
+deploy:
+  provider: releases
+  user: "wj250083262@163.com"
+  password: "taoying5611619"
+  file: app/build/outputs/apk/release/app-release.apk
+  skip_cleanup: true
+  on:
+    tags: true
