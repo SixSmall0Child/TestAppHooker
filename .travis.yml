@@ -11,5 +11,5 @@ before_script:
 script:
 - "./gradlew assembleRelease"
 before_install:
-- openssl aes-256-cbc -K $encrypted_ea305b9bd4c8_key -iv $encrypted_ea305b9bd4c8_iv
-  -in app/ss0c.jks.enc -out app/ss0c.jks -d
+- openssl aes-256-cbc -K $encrypted_426e7ed2a2a0_key -iv $encrypted_426e7ed2a2a0_iv
+  -in ss0c.jks.enc -out app/ss0c.jks -d
