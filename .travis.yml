@@ -9,5 +9,9 @@ android:
     - extra-android-m2repository
     - extra-android-support
 
+before_script:
+  - chmod +x gradlew
+
+
 script:
   - ./gradlew assembleRelease
